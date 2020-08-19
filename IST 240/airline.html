@@ -1,0 +1,111 @@
+<!--
+	Filename:  airline.html
+	By:  Matthew Evans
+	Reserves you a seat on a plane
+
+	Since when did they allow smoking on airplanes!?!?
+	I always thought that all flights were non-smoking
+	But then again, I've never been on a plane, so what do I know...
+//-->
+
+<html>
+	<head>
+	<title>Matthew Evans - airline.html</title>
+	
+	<script language="JavaScript">
+	<!--
+
+	var seats = [1, 2, 3, 4, 5, 6, 		// smoking
+		     7, 8, 9, 10, 11, 12];	// non-smoking
+
+	function reserveSeat()
+	{
+		var i;
+
+		if(parseInt(mizuho.seat.value) == 1)
+		{
+			// Handle smoking seats
+			for(i = 0; i < 6; i++)
+			{
+				if(seats[i] != 0)
+				{
+					// Reserve the seat
+					mizuho.output.value = "Seat number:  " + seats[i] + "\n\nSmoking";
+
+ 					seats[i] = 0;
+					return;
+				}
+			}
+			var check = parseInt(window.prompt("Smoking section is filled, would you like a seat in non-smoking? (1 = yes, 0 = no)", "1"));
+			if(check == 1)
+			{
+				for(i = 6; i < 12; i++)
+				{
+					if(seats[i] != 0)
+					{
+						// Reserve the seat
+						mizuho.output.value = "Seat number:  " + seats[i] + "\n\nNon-Smoking";
+
+						seats[i] = 0;
+						return;
+					}
+				}
+			}
+			window.alert("Next flight leaves tomorrow");
+		}
+		else
+		{
+			// Handle non-smoking seats
+			for(i = 6; i < 12; i++)
+			{
+				if(seats[i] != 0)
+				{
+					// Reserve the seat
+					mizuho.output.value = "Seat number:  " + seats[i] + "\n\nNon-Smoking";
+
+					seats[i] = 0;
+					return;
+				}
+			}
+			var check = parseInt(window.prompt("Non-smoking section is filled, would you like a seat in smoking? (1 = yes, 0 = no)", "1"));
+			if(check == 1)
+			{
+				for(i = 0; i < 6; i++)
+				{
+					if(seats[i] != 0)
+					{
+						// Reserve the seat
+						mizuho.output.value = "Seat number:  " + seats[i] + "\n\nSmoking";
+
+						seats[i] = 0;
+						return;
+					}
+				}
+			}
+			window.alert("Next flight leaves tomorrow");
+		}
+	}
+
+	//-->
+	</script>
+
+	</head>
+
+	<body>
+
+	<form name="mizuho">
+	Choose your prefrence of seating:
+	<select name="seat">
+		<option value="1">Smoking
+		<option value="2">Non-Smoking
+	</select>
+	<br>
+	<input name="submit" type="button" value="Submit" onclick="reserveSeat()">
+	<br><br>
+
+	<textarea name="output" cols="30" rows="3"></textarea>
+
+	</form>
+
+	</body>
+</html>

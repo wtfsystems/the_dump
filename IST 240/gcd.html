@@ -1,0 +1,82 @@
+<!--
+	Filename:  gcd.html
+	By:  Matthew Evans
+	Finds the gcd of two numbers
+
+	You can never watch enough anime
+//-->
+
+<html>
+	<head>
+	<title>Matthew Evans - gcd.html</title>
+
+	<script language="JavaScript">
+	<!--
+
+	// Finds the GCD
+	function findGCD()
+	{
+		var valueOne = parseInt(tsukasa.valueOne.value);
+		var valueTwo = parseInt(tsukasa.valueTwo.value);
+		var gcd;
+
+		if((valueOne == 0)||(valueTwo == 0))
+		{
+			if(valueOne == 0)
+			{
+				tsukasa.GCDOut.value = valueTwo;
+				return;
+			}
+			if(valueTwo == 0)
+			{
+				tsukasa.GCDOut.value = valueOne;
+				return;
+			}
+		}
+
+		if(valueOne > valueTwo)
+			gcd = GCD(valueOne, valueTwo);
+		else
+			gcd = GCD(valueTwo, valueOne);
+
+		tsukasa.GCDOut.value = gcd;
+		return;
+	}
+
+	// Uses the Euclidean algorithm to find the gcd
+	function GCD(A, B)
+	{
+		var gcd;
+
+		if(B == 0)
+			return A;
+
+		var q = parseInt(A / B);
+		var r = A - (B * q);
+
+		gcd = GCD(B, r);
+		return gcd;
+	}
+
+	//-->
+	</script>
+
+	</head>
+
+	<body>
+
+	<form name="tsukasa">
+	Enter value one:
+	<input name="valueOne" type="text" size="10">
+	<br>
+	Enter value two:
+	<input name="valueTwo" type="text" size="10">
+	<br>
+	<input name="GCD" type="button" value="Find the GCD" onclick="findGCD()">
+	<br><br>
+	The GCD is:
+	<input name="GCDOut" type="text" size="10">
+	</form>
+
+	</body>
+</html>

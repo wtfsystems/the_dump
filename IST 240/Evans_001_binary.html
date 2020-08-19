@@ -1,0 +1,48 @@
+<!--
+    Filename:  binary.html
+    By:  Matthew Evans
+    Finds the decimal equivlent of a binary number
+-->
+
+<html>
+	<head>
+		<title>Binary - Matthew Evans</title>
+
+		<script language="JavaScript" type="text/javascript">
+		<!--
+
+		var binaryNumber,
+		decimalNumber,
+		binaryPosition,
+		divideBy;
+
+		divideBy = binaryPosition = 1;
+		decimalNumber = 0;
+
+		binaryNumber = parseInt(window.prompt("Enter a binary number:", "0"));
+
+		do
+		{
+			temp = binaryNumber % 10;
+
+			if(temp == 1)
+				decimalNumber = decimalNumber + binaryPosition;
+
+			binaryPosition = binaryPosition * 2;
+
+			binaryNumber = Math.round(binaryNumber / 10);
+		}
+		while(binaryNumber > 0);
+
+		document.writeln("Decimal equivlent:  " + decimalNumber);
+
+		// w00t! 1 r ub3r l33t!
+
+		//-->
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+</html>

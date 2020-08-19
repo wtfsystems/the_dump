@@ -1,0 +1,145 @@
+<!--
+    Filename:  gpa.html
+    By:  Matthew Evans
+    GPA Calculator
+-->
+
+<html>
+	<head>
+		<title>GPA Calculator - Matthew Evans</title>
+
+		<script language="JavaScript">
+		<!--
+		
+		var NumClasses,           // number of classes taken
+		ClassName,                // name of the class
+		CreditAmount,             // amount of credits taken
+		Grade,                    // grade (letter)
+		NumGrade,                 // grade (numeric)
+		GradePoints,              // grade points
+		LoopCounter = 0,          // counter used for while loop
+		TotalCredits = 0.0,       // total amount of credits
+		TotalGradePoints = 0.0,   // total amount of grade points
+		GPA;                      // overall GPA
+		
+		// keep looping until they enter a valid amount of classes
+		NumClasses = parseInt(window.prompt("Enter the number of classes:  ","0"));
+		while((NumClasses < 0)||(NumClasses > 10))
+			NumClasses = parseInt(window.prompt("Enter the number of classes:  ","0"));
+		
+		// Start to display the table
+		document.writeln("<table border=\"1\" cellspacing=\"3\" cellpadding=\"3\"");
+		document.writeln("<tr><th>Course</th>");
+		document.writeln("<th>Credits</th><th>Grade</th>");
+		document.writeln("<th>Grade Points</th></tr>");
+
+		// Loop		
+		while(LoopCounter < NumClasses)
+		{
+		  // Get the input from the user
+			ClassName = window.prompt("Enter the name of the class:  ", "");
+			CreditAmount = parseFloat(window.prompt("Enter the amount of credits:  ", "0.0"));
+			Grade = window.prompt("Enter your grade", "A");
+
+			// Convert the letter grade to a numeric value
+			switch(Grade)
+			{
+			  // Entered A
+				case 'A': case 'a':
+					NumGrade = 4.0;
+					break;
+
+				// Entered A-
+				case 'A-': case 'a-':
+					NumGrade = 3.66;
+					break;
+			
+			  // Entered B+
+				case 'B+': case 'b+':
+					NumGrade = 3.33;
+					break;
+			
+				// Entered B			
+				case 'B': case 'b':
+					NumGrade = 3.0;
+					break;
+
+				// Entered B-
+				case 'B-': case 'b-':
+					NumGrade = 2.66;
+					break;
+				
+				// Entered C+
+				case 'C+': case 'c+':
+					NumGrade = 2.33;
+					break;
+				
+				// Entered C	
+				case 'C': case 'c':
+					NumGrade = 2.0;
+					break;
+				
+				// Entered D
+				case 'D': case 'd':
+					NumGrade = 1.0;
+					break;
+				
+				// YOU FAILED!!! HAHAHAHAHAHAHAHA!!!!!	
+				case 'F': case 'f':
+					NumGrade = 0.0;
+					break;
+					
+				// If they entered anything else, they deserve to fail	
+				default:
+					NumGrade = 0.0;
+					break;
+			}
+			
+			// Find the grade points
+			GradePoints = NumGrade * CreditAmount;
+			
+			// Display the calculated results
+			document.writeln("<tr><td align=\"center\">" + ClassName + "</td>");
+			document.writeln("<td align=\"center\">" + CreditAmount + "</td>");
+			document.writeln("<td align=\"center\">" + Grade + "</td>");
+			document.writeln("<td align=\"center\">" + GradePoints + "</td></tr>");
+			
+			// Totaling up the totals (yay!)
+			TotalCredits += parseFloat(CreditAmount);
+			TotalGradePoints += GradePoints;
+			
+			// The next line of code adds the value one to the number that LoopCounter already stores
+			LoopCounter++;
+		}
+
+		// Calcs the GPA				
+		GPA = TotalGradePoints / TotalCredits;
+
+		// Displays the rest of the stuff				
+		document.writeln("<tr><th>Total Grade Points</th>");
+		document.writeln("<td align=\"right\">" + TotalGradePoints + "</td>");
+
+		document.writeln("<tr><th>Semester GPA</th>");
+		document.writeln("<td align=\"right\">" + (Math.round(GPA * 100 ) / 100) + "</td>");
+		document.writeln("<td></td><td></td></tr>");	
+		
+		// Closes the table, very important!
+		document.writeln("</table>");
+		
+		// JavaScript is inferior to C++!!!!!!
+		
+		/*
+		  motto sochi tsuyoki kenshi ni
+      nare yo to sakenda kotodama
+			
+			ano?
+		*/
+				
+		//-->
+		</script>
+	</head>
+
+	<body>
+	</body>
+</html>
+

@@ -1,0 +1,30 @@
+file format for the course.txt file (parsed by CourseDB.java)
+
+<entry number>
+<course name>
+<course address>
+<course city>
+<course state>
+<course zip code>
+<phone number>
+<directions1>
+<directions2>
+<directions3>
+<directions4>
+<directions5>
+<number of holes>
+<total yards>
+<total par>
+
+[signature hole info]
+<image name>
+<holeNum>
+<yardage>
+<par>
+<teePosX>
+<teePosY>
+<holePosX>
+<holePosY>
+
+note: entry number does not need to be exact, it is only used as an
+EOF reference.

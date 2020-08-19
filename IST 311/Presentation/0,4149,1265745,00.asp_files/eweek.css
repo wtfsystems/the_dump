@@ -1,0 +1,564 @@
+
+TD
+{
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans
+}
+BODY
+{
+    FONT-FAMILY: Arial, Helvetica, Verdana, sans
+}
+P
+{
+    /* FONT-SIZE: 13px; */
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    FONT-COLOR: #333333;
+
+}
+
+/* COLOR: #2347B3 */
+
+/* wanted to do this ... but it screws up too much stuff
+A:link { COLOR: #3061AD }
+A:active { COLOR: #3061AD }
+A:visited { COLOR: #3061AD }
+A:hover { COLOR: #3061AD; text-decoration:none; }
+*/
+
+
+a		{COLOR:#003399}
+a:link		{text-decoration:none;}
+a:visited	{text-decoration:none;}
+a:hover		{text-decoration:underline;}
+
+
+/*************************************************
+* Random Background Colors
+***************************************************/
+.BorderBG		{BACKGROUND-COLOR: #E6E6DE;}
+.bgcolor1		{BACKGROUND-COLOR: #000000;}
+.Skyscraper_BG		{BACKGROUND-COLOR: #eef2f7;}
+.Section_Header_BG	{BACKGROUND-COLOR: #d1ceeb;}
+.bgcolor8			{BACKGROUND-COLOR: #ecebf9}
+.bgcolor9		{BACKGROUND-COLOR: #e8edd9;}
+.bgcolor12		{BACKGROUND-COLOR: #ffffff;}
+.bgcolor3		{BACKGROUND-COLOR: #6278aa;}
+.ltgrey			{BACKGROUND-COLOR: #ebebec;}
+
+
+
+/*************************************************
+* The following is Header information
+***************************************************/
+.nav_text		{FONT-SIZE: 10px; COLOR: #113060; FONT-FAMILY: Verdana, Arial;}
+a.nav_text:link		{FONT-SIZE: 10px; COLOR: #113060; FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.nav_text:visited	{FONT-SIZE: 10px; COLOR: #113060; FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.nav_text:hover	{FONT-SIZE: 10px; COLOR: #113060; FONT-FAMILY: Verdana, Arial; text-decoration:underline;}
+
+.AD_BG			{BACKGROUND-COLOR: #f3f3f3;}
+.SubNav_BG		{BACKGROUND-COLOR: #8ab8e6;}
+
+.SubNav			{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #CCFF00;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.SubNav:link		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #003366;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.SubNav:visited	{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #003366;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.SubNav:hover		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #003366;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+
+/************************************************
+* Breadcrumb
+*************************************************/
+.Breadcrumb_Content		{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #000000; FONT-FAMILY: Verdana, Arial;}
+a.Breadcrumb_Content:link	{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #000000; FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.Breadcrumb_Content:visited	{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #000000; FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.Breadcrumb_Content:hover	{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #000000; FONT-FAMILY: Verdana, Arial; text-decoration:underline;}
+
+
+/*************************************************
+* Current Feature
+***************************************************/
+.CF_TitleLarge		{FONT-WEIGHT: bold;FONT-SIZE: 15px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial;}
+a.CF_TitleLarge:link	{FONT-WEIGHT: bold;FONT-SIZE: 15px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.CF_TitleLarge:visited	{FONT-WEIGHT: bold;FONT-SIZE: 15px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.CF_TitleLarge:hover	{FONT-WEIGHT: bold;FONT-SIZE: 15px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:underline;}
+
+.CF_Title		{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial;}
+a.CF_Title:link		{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.CF_Title:visited	{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.CF_Title:hover	{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:underline;}
+
+.CF_Deck		{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #333333;FONT-FAMILY: Arial;}
+a.CF_Deck:link		{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Arial; text-decoration:none;}
+a.CF_Deck:visited	{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Arial; text-decoration:none;}
+a.CF_Deck:hover		{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Arial; text-decoration:underline;}
+
+.CF_AreaHeader		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial;TEXT-DECORATION: none;}
+
+
+/*************************************************
+* Breaking News
+***************************************************/
+.BreakNews_BG		{BACKGROUND-COLOR: #f3f3f3;}
+.BreakNews_Date		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #333333;FONT-STYLE: italic;FONT-FAMILY: Verdana, Arial;}
+
+.BreakNews_Content		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, Arial;}
+a.BreakNews_Content:link	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #CC0000;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.BreakNews_Content:visited	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #CC0000;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.BreakNews_Content:hover	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #CC0000;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+
+/*************************************************
+* Product Guides
+***************************************************/
+.PG_Select			{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #99CC00;FONT-FAMILY: Verdana, Arial;}
+
+.PG_Title			{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial;}
+a.PG_Title:link		{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.PG_Title:visited	{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.PG_Title:hover	{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial; text-decoration:underline;}
+
+.PG_ArchiveList		{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #2347B3; FONT-FAMILY: Verdana, Arial;}
+a.PG_ArchiveList:link		{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #2347B3; FONT-FAMILY: Verdana, Arial; text-decoration:none}
+a.PG_ArchiveList:visited	{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #2347B3; FONT-FAMILY: Verdana, Arial; text-decoration:none}
+a.PG_ArchiveList:hover		{FONT-SIZE: 10px; FONT-WEIGHT: normal; COLOR: #2347B3; FONT-FAMILY: Verdana, Arial; text-decoration:underline;}
+
+.PG_AreaHeader		{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #3366ff;FONT-FAMILY: Verdana, Arial;TEXT-DECORATION: none;}
+.PG_Deck			{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #333333;FONT-FAMILY: Arial;}
+.PG_EditorRating	{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+.PG_MoreLinks 		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #CCE6FF;FONT-FAMILY: Verdana, arial, sans;}
+.PG_ColTxt			{FONT-SIZE: 9px; FONT-WEIGHT: normal; COLOR: #666666; FONT-FAMILY: Verdana, Arial;}
+
+
+
+
+/*************************************************
+* Highlights Section
+***************************************************/
+.Highlights_BG			{BACKGROUND-COLOR: #4080bf;}
+
+.Highlights_Content			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #666666;FONT-FAMILY: Verdana, Arial;}
+a.Highlights_Content:link	{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.Highlights_Content:visited	{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, Arial; text-decoration:none;}
+a.Highlights_Content:hover	{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, Arial; text-decoration:underline;}
+
+
+/*************************************************
+* Newsletters
+***************************************************/
+.Newsletter_BG		{BACKGROUND-COLOR: #f3f3f3;}
+.Newsletter_Content	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial;}
+
+
+
+/*************************************************
+* Ad Module
+***************************************************/
+.AdModule_Hdr			{FONT-SIZE: 11px;COLOR: #666666;FONT-FAMILY: Verdana}
+.AdModule_BG			{BACKGROUND-COLOR: #eef2f7;}
+.AdModule_ContentLarge	{FONT-SIZE: 13px;COLOR: #333333;FONT-FAMILY: Verdana, Arial;}
+a.AdModule_ContentLarge:link	{FONT-SIZE: 13px;COLOR: #2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.AdModule_ContentLarge:visited{FONT-SIZE: 13px;COLOR: #2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.AdModule_ContentLarge:hover	{FONT-SIZE: 13px;COLOR: #2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+.AdModule_Content		{FONT-SIZE: 10px;COLOR: #333333;FONT-FAMILY: Verdana, Arial;}
+a.AdModule_Content:link	{FONT-SIZE: 10px;COLOR: #2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.AdModule_Content:visited	{FONT-SIZE: 10px;COLOR: #2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.AdModule_Content:hover	{FONT-SIZE: 10px;COLOR: #2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+
+
+/*************************************************
+* Footer Links
+***************************************************/
+a.Footer_Pub:link	{color:#CCCCCC;text-decoration:none;font-weight:bold;}
+a.Footer_Pub:visited	{color:#CCCCCC;text-decoration:none;font-weight:bold;}
+a.Footer_Pub:hover	{color:#CCCCCC;text-decoration:underline;}
+.Footer_Pub		{font-family:verdana;font-size:10px;color:#CCCCCC;}
+
+a.Footer_ZD:link	{color:#666666;text-decoration:none;font-weight:bold;}
+a.Footer_ZD:visited	{color:#666666;text-decoration:none;font-weight:bold;}
+a.Footer_ZD:hover	{color:#666666;text-decoration:underline;}
+
+
+.Footer_Text		{font-family:verdana;font-size:10px;color:#666666;}
+
+
+
+/*************************************************
+* Intel Showcase/Sponsors
+***************************************************/
+.Sponsor_Content	{font-family:Verdana;font-size:10px;margin: 0 0 8 0}
+a.Sponsor_Content:link		{color:#2347B3;text-decoration:none;font-weight:normal;}
+a.Sponsor_Content:visited	{color:#2347B3;text-decoration:none}
+a.Sponsor_Content:hover		{color:#2347B3;text-decoration:underline}
+
+.Sponsor_BG		{BACKGROUND-COLOR:EEF2F7;}
+.Sponsor_Test			{font-family:Verdana;font-size:5px;color:EEF2F7;text-decoration: none}
+
+
+/*************************************************
+* Modules
+***************************************************/
+.Module_Border		{FONT-WEIGHT:bold;FONT-SIZE:10px;COLOR:#ffffff;FONT-FAMILY: Verdana, Arial;BACKGROUND-COLOR:#275294;}
+.Module_Border_BreakingNews {FONT-WEIGHT:bold;FONT-SIZE:10px;COLOR:#ffffff;FONT-FAMILY: Verdana, Arial;BACKGROUND-COLOR:#CC0000;}
+
+.Module_Content 		{FONT-WEIGHT:normal;FONT-SIZE:11px;COLOR:#003399;FONT-FAMILY: Verdana, Arial;}
+a.Module_Content:link 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#003399;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.Module_Content:visited 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#003399;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.Module_Content:hover 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#003399;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+.Module_Date			{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;FONT-STYLE: italic;}
+.Module_BG			{BACKGROUND-COLOR:#E3EFF3;}
+.Module_BG_BreakingNews		{BACKGROUND-COLOR:#FFFFFF;}
+
+/* Sometimes they want different color modules so we need to change things slightly */
+.Module_Border2		{FONT-WEIGHT:bold;FONT-SIZE:12px;COLOR:#FFFFFF;FONT-FAMILY: Verdana, Arial;BACKGROUND-COLOR:#99CC00;}
+.Module_BG2			{BACKGROUND-COLOR:#F3F3F3;}
+
+.Module_Content2 		{FONT-WEIGHT:normal;FONT-SIZE:11px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;}
+a.Module_Content2:link 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.Module_Content2:visited 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.Module_Content2:hover 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+/*These modules will be used for Shop now modules */
+.Module_BG3			{BACKGROUND-COLOR: #4080bf;}
+.Module_Border3		{FONT-WEIGHT:bold;FONT-SIZE:12px;COLOR:#FFFFFF;FONT-FAMILY: Verdana, Arial;BACKGROUND-COLOR:#4080BF;}
+
+.Module_Content3 		{FONT-WEIGHT:normal;FONT-SIZE:11px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;}
+a.Module_Content3:link 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.Module_Content3:visited 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.Module_Content3:hover 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+/* We also need a different Module style on Product Guide pages */
+.PGModule_BG	{BACKGROUND-COLOR: #F3F3F3;}
+.PGModule_Header {FONT-WEIGHT:bold;FONT-SIZE:12px;COLOR:#666666;FONT-FAMILY: Verdana, Arial;}
+
+.PGModule_Content 		{FONT-WEIGHT:normal;FONT-SIZE:11px;COLOR:#2347B3;FONT-FAMILY: Verdana, Arial;}
+a.PGModule_Content:link 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.PGModule_Content:visited 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.PGModule_Content:hover 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#2347B3;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+.BestSelling_BG		{BACKGROUND-COLOR: #4382be;}
+.BestSelling_Content {FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;}
+a.BestSelling_Content:link 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.BestSelling_Content:visited 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.BestSelling_Content:hover 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#CCE6FF;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+/*In This Issue module*/
+.articletitles		{font-size:10px;color:#003399}
+.redplus		{font-size:9px;color:#ff3300}
+a.InThisIssue:link 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#666666;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.InThisIssue:visited 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#666666;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.InThisIssue:hover 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#666666;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+/* BITPIPE Module */
+.bp_bgcolor1                {BACKGROUND-COLOR: #E3EFF3;}
+.bp_bgcolor2                {FONT-WEIGHT:bold;FONT-SIZE:10px;COLOR:#ffffff;FONT-FAMILY: Verdana, Arial;BACKGROUND-COLOR:#275294;}
+
+/*
+.bp_ModuleLink              {FONT-WEIGHT:normal;FONT-SIZE:11px;COLOR:#4080BF;FONT-FAMILY: Verdana, Arial;}
+a.bp_ModuleLink:link 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#4080BF;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+a.bp_ModuleLink:visited 	{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#4080BF;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+a.bp_ModuleLink:hover 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#4080BF;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+*/
+
+
+/*******************************************************
+* TOC
+*********************************************************/
+/* Sometimes they want different color modules so we need to change things slightly */
+.TOC_Border			{BACKGROUND-COLOR:#232B32; FONT-WEIGHT:bold; FONT-SIZE:10px; COLOR:#ffffff; FONT-FAMILY: Verdana; }
+.TOC_BG				{BACKGROUND-COLOR:#B5CDD8;}
+
+.TOC_Content 			{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;}
+a.TOC_Content:link 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.TOC_Content:visited 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;text-decoration:none;}
+a.TOC_Content:hover 		{FONT-WEIGHT:normal;FONT-SIZE:10px;COLOR:#333333;FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+
+/*******************************************************
+* Related Links Module
+*********************************************************/
+.RL_Border		{BACKGROUND-COLOR:#232B32; FONT-WEIGHT:bold; FONT-SIZE:10px; COLOR:#ffffff; FONT-FAMILY: Verdana; }
+.RL_BG			{BACKGROUND-COLOR:#B5CDD8;}
+a.RL_Content:link 	{FONT-WEIGHT:normal; FONT-SIZE:10px; COLOR:#003399; FONT-FAMILY: Verdana, Arial;text-decoration:none;} 
+a.RL_Content:visited	{FONT-WEIGHT:normal; FONT-SIZE:10px; COLOR:#003399; FONT-FAMILY: Verdana, Arial;text-decoration:none;} 
+a.RL_Content:hover  	{FONT-WEIGHT:normal; FONT-SIZE:10px; COLOR:#003399; FONT-FAMILY: Verdana, Arial;text-decoration:underline;}
+
+/*******************************************************
+* Filter/Archive Pages
+*********************************************************/
+.Filter_Area_Title		{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #FF6600;FONT-FAMILY: Verdana,arial,sans;text-transform:uppercase}
+
+.Filter_Article_Title		{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #2347B3;FONT-FAMILY: Verdana, arial, sans;}
+a.Filter_Article_Title:link	{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #2347B3;text-decoration:none;}
+a.Filter_Article_Title:visited	{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #2347B3;text-decoration:none;}
+a.Filter_Article_Title:hover	{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #2347B3;text-decoration:underline;}
+
+.Filter_Deck			{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #333333;FONT-FAMILY:  Verdana, arial, sans;}
+a.Filter_Deck:link		{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #2347B3;text-decoration:none;}
+a.Filter_Deck:visited		{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #2347B3;text-decoration:none;}
+a.Filter_Deck:hover		{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #2347B3;text-decoration:underline;}
+
+.Filter_Article_Subtitle	{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #6677bb;LINE-HEIGHT: 17px;FONT-FAMILY: Verdana, arial, sans;}
+.Filter_Article_Deck		{FONT-WEIGHT: normal;FONT-SIZE: 13px;COLOR: #000000;FONT-FAMILY: arial, helvetica, sans, Verdana;}
+.Editor_Rating			{FONT-WEIGHT: bold;FONT-SIZE: 11px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+
+.Filter_Link			{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #FF6600;FONT-FAMILY: Verdana, arial, sans;text-transform:uppercase}
+a.Filter_Link:link		{text-decoration:none;}
+a.Filter_Link:visited		{text-decoration:none;}
+a.Filter_Link:hover		{text-decoration:underline;}
+
+.Archive_Date			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+.Area_Title			{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #787880;FONT-FAMILY: Verdana,arial,sans;BACKGROUND-COLOR: #F3F3F3;}
+
+
+/*******************************************************
+* SuperSite Pages
+********************************************************/
+.SuperSite_Header   		{BACKGROUND-COLOR: #232B32;}
+
+
+/********************************************************
+* Search
+********************************************************/
+.Category_Search_BG		{BACKGROUND-COLOR: #e8edd9;}
+.Category_Search_Content	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+
+
+/********************************************************
+* ARTICLE
+********************************************************/
+.Article_Title          {FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #3061AD; FONT-FAMILY: Verdana, arial, sans;}
+.Article_SubTitle   	{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #669900;FONT-FAMILY: Verdana, arial, sans;}
+.Article_Deck	    	{FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;}
+.Article_Date   	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #666666;FONT-FAMILY: Verdana, arial, sans;}
+
+.Article_Content        {FONT-WEIGHT: normal; FONT-SIZE: 12px ; COLOR: #333333 ! important; FONT-FAMILY: Verdana, arial, sans;}
+
+.Article_Posts			{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347B3;FONT-FAMILY: Verdana, arial, sans;}
+a.Article_Posts:link	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347B3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Article_Posts:visited	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347B3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Article_Posts:hover	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347B3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+
+.Package_Title          {FONT-WEIGHT: bold;FONT-SIZE: 14px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;}
+.Package_SubTitle       {FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;}
+
+.Article_Page_Link      {FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #003399;FONT-FAMILY: Verdana, arial, sans;}
+.Article_Page_LinkB     {FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #003399;FONT-FAMILY: Verdana, arial, sans;}
+
+.authorsource           {FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #666666;FONT-FAMILY: Verdana, arial, sans;}
+a.authorsource:link     {FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #3061AD;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.authorsource:visited  {FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #003399;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.authorsource:hover    {FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #003399;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+
+/********************************************************
+* Join
+********************************************************/
+.j_hdr1		{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #4080BF;FONT-FAMILY: Verdana, arial, sans;}
+.j_content1	{FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+.j_content1b	{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+
+/********************************************************
+* My Account
+*********************************************************/
+.MyAccount_Content				{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+a.MyAccount_Content:link		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.MyAccount_Content:visited		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.MyAccount_Content:hover		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+
+.MyAccount_Header				{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #4080BF;FONT-FAMILY: Verdana, arial, sans;}
+.MyAccount_Section_Header		{FONT-WEIGHT: bold;FONT-SIZE: 15px;COLOR: #4080BF;FONT-FAMILY: Verdana, arial, sans;BACKGROUND-COLOR: #d1ceeb;}
+
+
+/********************************************************
+* Pull quotes
+*********************************************************/
+.DiscussMember		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans}
+.DiscussText		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #666666;FONT-FAMILY: Verdana, arial, sans}
+.DiscussBG			{BACKGROUND-COLOR: #333333;}
+.DiscussBreakBG		{BACKGROUND-COLOR: #cccccc;}
+
+/********************************************************
+* Pull quotes
+*********************************************************/
+.prospero			{FONT-SIZE: 11px;COLOR: #ffffff;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: none;}
+.prospero1			{FONT-SIZE: 10px;COLOR: #003366;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: none;}
+.prospero_BG		{BACKGROUND-COLOR: #cccccc;}
+.prospero_BG1		{BACKGROUND-COLOR: #336699;}
+
+/********************************************************
+* Slideshow
+*********************************************************/
+.Slideshow_BG1	{BACKGROUND-COLOR: #004080;}
+.Slideshow_BG2	{BACKGROUND-COLOR: #4080BF;}
+.Slideshow_Nav_Content {FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #ffffff;FONT-FAMILY: Verdana, arial, sans}
+.Slideshow_Header {FONT-WEIGHT: bold;FONT-SIZE: 14px;COLOR: #669900;FONT-FAMILY: Verdana, arial, sans}
+
+.Slideshow_Content				{FONT-WEIGHT: bold;FONT-SIZE: 11px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;}
+a.Slideshow_Content:link		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Slideshow_Content:visited		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Slideshow_Content:hover		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+
+
+/*************************************************
+* MISC
+***************************************************/
+.ContextualSearch		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #e6e6de;FONT-FAMILY: Verdana;}
+.dot				{FONT-SIZE: 4px;COLOR: #ffffff;LINE-HEIGHT: 4px;FONT-FAMILY: Verdana, arial, sans;}
+.Large_Content			{FONT-WEIGHT: normal;FONT-SIZE: 14px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+
+.Normal_Content			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+a.Normal_Content:link		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Normal_Content:visited	{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Normal_Content:hover		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+
+.Small_Content			{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+a.Small_Content:link		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Small_Content:visited		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Small_Content:hover		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+
+.Content_Med_Red		{FONT-SIZE: 10px; COLOR: #CC0000; FONT-FAMILY: Verdana, Arial;}
+.Content_Med_Gray		{FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial;}
+
+.Small_Purple			{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #999966;FONT-FAMILY: Verdana, arial, sans;}
+.Large_Purple			{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #663399;FONT-FAMILY: Verdana, arial, sans;}
+.errormessage			{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #cc0000;LINE-HEIGHT: 12px;FONT-FAMILY: Verdana, arial, sans;}
+.Disclaimer			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #663399;FONT-FAMILY: Verdana, arial, sans;}
+
+.Premium_Partners 		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #CCE6FF;FONT-FAMILY: Verdana, arial, sans;}
+a.Premium_Partners:link 	{text-decoration:none;}
+a.Premium_Partners:visited 	{text-decoration:none;}
+a.Premium_Partners:hover 	{text-decoration:underline;}
+
+.yaga_content			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #666666;FONT-FAMILY: Verdana, arial, sans;}
+a.yaga_content:link		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+a.yaga_content:visited		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+a.yaga_content:hover		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+
+.copyright			{FONT-SIZE: 10px;COLOR: #999999;FONT-FAMILY: Verdana, arial, sans;}
+
+.Last_Updated			{FONT-SIZE: 9px;COLOR: #113060;FONT-FAMILY: Verdana, arial, sans;}
+
+/***************************************************
+* Guys I can't erase b/c they're common
+****************************************************/
+.linkmore5		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+.content7		{FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+.zcopyright2		{FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+.zprivacy1		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #ffffff;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: underline;}
+.zfooter1		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #ffffff;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: none;}
+.zfooter2		{FONT-SIZE: 10px;COLOR: #99ccff;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: none;}
+.zfooter3		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #0000cc;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: none;}
+.zfooter4		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: none;}
+.zfooter5		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #000099;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: none;}
+.zprivacy2		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;TEXT-DECORATION: underline;}
+
+.BodycopySmall			{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;}
+a.BodycopySmall:link		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+a.BodycopySmall:visited		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+a.BodycopySmall:hover		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #333333;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+
+.link1				{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347B3;FONT-FAMILY: arial, helvetica, sans, Verdana;}
+a.link1:link			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347B3;FONT-FAMILY: arial, helvetica, sans, Verdana;text-decoration:underline;}
+a.link1:visited			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347B3;FONT-FAMILY: arial, helvetica, sans, Verdana;text-decoration:underline;}
+a.link1:hover			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347B3;FONT-FAMILY: arial, helvetica, sans, Verdana;text-decoration:none;}
+.content15			{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #2347B3;FONT-FAMILY: arial, helvetica, sans, Verdana;}	
+
+.content10 { FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, arial, san; }
+.bgcolor2 { BACKGROUND-COLOR: #000000; }	
+.hdr1 { FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; LINE-HEIGHT: 15px; FONT-FAMILY: helvetica; }
+
+
+/*************************************************************
+* search css styles
+**************************************************************/
+.Search_Content_Purple		{FONT-WEIGHT: normal;FONT-SIZE: 11px;COLOR: #4080BF;FONT-FAMILY: Verdana, arial, sans;}
+.Search_Header			{FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;BACKGROUND-COLOR: #cccccc}
+.Search_Index_Header		{FONT-WEIGHT: bold;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+
+.Search_Content			{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #000000;FONT-FAMILY: Verdana, arial, sans;}
+a.Search_Content:link		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Search_Content:visited	{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:none;}
+a.Search_Content:hover		{FONT-WEIGHT: normal;FONT-SIZE: 10px;COLOR: #2347b3;FONT-FAMILY: Verdana, arial, sans;text-decoration:underline;}
+
+.SearchBar_BG			{BACKGROUND-COLOR: #666666;}
+.SearchBar_Text			{FONT-WEIGHT: bold;FONT-SIZE: 11px;COLOR: #ffffff;FONT-FAMILY: VERDANA, ARIAL, HELVETICA, sans-serif;}
+.SearchBar_Link			{FONT-SIZE: 11px;COLOR: #ffffff;FONT-FAMILY: VERDANA, ARIAL, HELVETICA, sans-serif;TEXT-DECORATION: underline;}
+
+
+/* homepage */
+.home_ts1_title			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#000000;margin:0 0 0 0;}
+a.home_ts1_title:link		{text-decoration:none;}
+a.home_ts1_title:visited	{text-decoration:none;}
+a.home_ts1_title:hover		{text-decoration:underline;}
+.home_ts1_deck			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:11px;FONT-WEIGHT:regular;COLOR:#333333;margin:0 0 0 0}
+
+.home_ts2_section		{FONT-FAMILY: Verdana, Arial;FONT-SIZE:10px;FONT-WEIGHT:bold;COLOR:#ff6600;TEXT-TRANSFORM:uppercase;margin:0 0 0 0}
+.home_ts2_title			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:12px;FONT-WEIGHT:bold;COLOR:#003399;margin:0 0 0 0}
+a.home_ts2_title:link		{text-decoration:none;}
+a.home_ts2_title:visited	{text-decoration:none;}
+a.home_ts2_title:hover		{text-decoration:underline;}
+.home_ts2_deck			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:11px;FONT-WEIGHT:regular;COLOR:#333333;margin:0 0 0 0}
+
+.home_sr_section		{FONT-FAMILY: Verdana, Arial;FONT-SIZE:10px;FONT-WEIGHT:bold;COLOR:#666666;TEXT-TRANSFORM:uppercase;margin:5 0 5 0}
+.home_sr_title			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:12px;FONT-WEIGHT:bold;COLOR:#003399;margin:0 0 0 0;}
+a.home_sr_title:link		{text-decoration:none;}
+a.home_sr_title:visited		{text-decoration:none;}
+a.home_sr_title:hover		{text-decoration:underline;}
+.home_sr_deck			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:10px;FONT-WEIGHT:regular;COLOR:#333333;margin:0 0 0 0}
+
+.home_ss_headlines		{FONT-FAMILY: Verdana, Arial;FONT-SIZE:10px;COLOR:#003399;padding:0 0 0 0}
+a.home_ss_headlines:link	{text-decoration:none;}
+a.home_ss_headlines:visited	{text-decoration:none;}
+a.home_ss_headlines:hover	{text-decoration:underline;}
+
+.home_filter			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:10px;FONT-WEIGHT:normal;COLOR:#003399}
+a.home_filter:link		{text-decoration:none;}
+a.home_filter:visited		{text-decoration:none;}
+a.home_filter:hover		{text-decoration:underline;}
+
+/* news */
+
+.news_ts1_title			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:20px;FONT-WEIGHT:bold;COLOR:#CC0000;margin:5 0 0 0;}
+a.news_ts1_title:link		{text-decoration:none;}
+a.news_ts1_title:visited	{text-decoration:none;}
+a.news_ts1_title:hover		{text-decoration:underline;}
+
+.news_ts2_section		{FONT-FAMILY: Verdana, Arial;FONT-SIZE:10px;FONT-WEIGHT:bold;COLOR:#CC0000;TEXT-TRANSFORM:uppercase;margin:0 0 0 0}
+.news_ts2_title			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#003399;margin:0 0 0 0}
+a.news_ts2_title:link		{text-decoration:none;}
+a.news_ts2_title:visited	{text-decoration:none;}
+a.news_ts2_title:hover		{text-decoration:underline;}
+
+.news_archive_title			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:14px;FONT-WEIGHT:bold;COLOR:#003399;margin:0 0 0 0}
+a.news_archive_title:link		{text-decoration:none;}
+a.news_archive_title:visited	{text-decoration:none;}
+a.news_archive_title:hover		{text-decoration:underline;}
+
+
+/* standard filter*/
+
+.standard_list_title		{FONT-FAMILY: Verdana, Arial;FONT-SIZE:18px;FONT-WEIGHT:bold;COLOR:#003399;margin:5 0 0 0}
+a.standard_list_title:link	{text-decoration:none;}
+a.standard_list_title:visited	{text-decoration:none;}
+a.standard_list_title:hover	{text-decoration:underline;}
+.standard_list_date		{FONT-FAMILY:Verdana,Arial;FONT-SIZE:10px;FONT-WEIGHT:bold;FONT-STYLE:italic;COLOR:#666666;margin:2 0 2 0}
+.standard_list_deck		{FONT-FAMILY:Verdana,Arial;FONT-SIZE:11px;FONT-WEIGHT:regular;COLOR:#333333;margin:0 0 10 0}
+
+.standard_list_more		{FONT-FAMILY: Verdana, Arial;FONT-SIZE:10px;FONT-WEIGHT:bold;COLOR:#003399}
+a.standard_list_more:link	{text-decoration:none;}
+a.standard_list_more:visited	{text-decoration:none;}
+a.standard_list_more:hover	{text-decoration:underline;}
+
+/* standard archive */
+
+.standard_archive_title			{FONT-FAMILY: Verdana, Arial;FONT-SIZE:11px;FONT-WEIGHT:bold;COLOR:#003399;margin:0 0 0 0}
+a.standard_archive_title:link		{text-decoration:none;}
+a.standard_archive_title:visited	{text-decoration:none;}
+a.standard_archive_title:hover		{text-decoration:underline;}
+.standard_archive_date			{FONT-FAMILY:Verdana,Arial;FONT-SIZE:10px;FONT-WEIGHT:bold;FONT-STYLE:italic;COLOR:#666666;margin:5 0 0 0}
+.standard_archive_deck			{FONT-FAMILY:Verdana,Arial;FONT-SIZE:11px;FONT-WEIGHT:regular;COLOR:#333333;margin:0 0 15 0}
+
+.smallpadding			{FONT-SIZE:11px;FONT-FAMILY: Verdana, Arial;margin: 5 0 5 0}
+.modulepadding_title		{margin: 0 2 0 3}
+.modulepadding_body		{margin: 5 2 5 3}

@@ -1,0 +1,27 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "CourseLocatorApp"
+JDKPROFILE := ""
+ACTIVE := "1"
+OUTPUTPATH := "\\classes"
+COMPILER := ""
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "" RUNAPPLET := "" PARAM := "" RUN := "\\classes\\CourseLocatorApp.htm" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\CourseXML.java" #[EndFile]
+#[BeginFile]SOURCE := "\\SignatureHole.java" #[EndFile]
+#[BeginFile]SOURCE := "\\CourseObject.java" #[EndFile]
+#[BeginFile]SOURCE := "\\CourseDB.java" #[EndFile]
+#[BeginFile]SOURCE := "\\CourseDisplay.java" #[EndFile]
+#[BeginFile]SOURCE := "\\CourseLocatorApp.java" #[EndFile]
+#[BeginFile]SOURCE := "\\classes\\CourseLocatorApp.htm" #[EndFile]
+#[EndFolder]

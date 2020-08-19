@@ -1,0 +1,253 @@
+1
+Split Rock Resort & Conv Cntr
+Route 940 
+Blakeslee
+PA
+18624
+555-1111
+Interstate 80 West
+Exit 284. 
+Make a right onto Rt. 115 
+Follow signs to Split Rock Resort.
+!
+18
+7056
+72
+001.gif
+7
+567
+4
+62
+328
+58
+30
+2
+Buck Hill Falls Golf Club
+100 Bunker Road
+Buck Hill Falls
+PA 
+18323
+555-2222
+Interstate 80 West
+Take Exit 309 (Marshalls Creek)
+Turn left onto Route 447 North 
+Take 447 for 17 miles into Canadensis
+!
+18
+6496
+72
+002.gif
+4
+622
+3
+60
+354
+64
+45
+3
+Bucks County Country Club
+Route 263
+Jamison
+PA 
+18929
+555-3333
+Interstate 76 West
+Interstate 476 N toward Plymouth Meeting 
+Right turn onto Rt 132 E, 2 1/2 miles to Rt 263 
+Left turn onto Rt 263 North
+BCCC is  ahead on the left
+9
+6252
+70
+003.gif
+7
+586
+5
+75
+392
+72
+27
+4
+Locust Valley Golf Club
+5402 Locust Valley Rd
+Coopersburg
+PA 
+18036
+555-4444
+Take the PA Turnpike to exit 32
+Make a left on to 663 N. Go to the 2nd red light. 
+Turn left on to Allentown Rd.
+Go about 5 miles
+Locust Valley Golf Club is on the left
+18
+6192
+72
+004.gif
+4
+496
+4
+69
+362
+78
+47
+5
+Pocono Manor East
+Route 314 Manor Rd
+Pocono Manor
+PA 
+18349
+555-5555
+I-95 North to I-476
+North on Turnpike to Pocono Exit 95
+I-80 East to I-380 North. 
+At the first exit (Pocono Exit 3) 
+East on Route 940 and follow signs to the Manor
+9
+6540
+72
+005.gif
+5
+611
+3
+60
+351
+68
+53
+6
+Fernwood Resort & CC
+Route 209
+North Bushkill
+PA 
+18324
+555-6666
+Take I-476 N to Route 22 E exit
+Follow Route 22 E to Route 33 N to Route 209 N 
+I-80 E to PA Exit 309 (formerly Exit 52)  
+Take 209 N and follow Route 209 N 
+8 miles to the Fernwood Hotel & Resort.
+18
+6174
+71
+006.gif
+16
+502
+4
+77
+353
+89
+36
+7
+Southmoore Golf Course
+235 Moorestown Dr
+Bath
+PA 
+18014
+555-7777
+From Northeast:
+Take 80 West to Rt 33 South (Exit 46A). 
+Stay on Rt 33 20 minutes to Rt 512. 
+Take a right off exit (south on 512). 
+Course s 7 miles on right.
+18
+6183
+71
+007.gif
+12
+633
+3
+39
+402
+62
+45
+8
+Skytop Lodge GC
+One Skytop
+Skytop
+PA 
+18357
+555-8888
+From North Jersey:
+Take route I-80 to the Delaware Water Gap 
+Take Exit 309. Merge immediately into left lane 
+Follow Route 447 North to the village of Canadensis
+Turn right on Route 390 North
+18
+6656
+71
+008.gif
+2
+478
+4
+51
+334
+50
+41
+9
+Water Gap CC (Poconos)
+Mountain Rd
+Delaware Water Gap
+PA 
+18327
+555-9999
+From NYC or NJ:
+Take I-80 West to Delaware River
+Take the first exit 53
+At traffic light turn left on Rt. 611 South
+At Mountain Rd turn right
+18
+6237
+72
+009.gif
+6
+553
+4
+68
+400
+83
+38
+10
+Cherry Valley GC
+Crowesdale Road
+Stroudsburg
+PA 
+18360
+555-1010
+Take I-80 west to exit 310
+Keep bearing left to the only stop light in town 
+At light make left - 100 yards
+make right onto Cherry Valley Rd - 2 miles on left
+!
+18
+6063
+71
+010.gif
+18
+532
+3
+141
+308
+74
+87
+11
+Glen Brook Country Club
+PO Box 746
+Stroudsburg
+PA 
+18360
+555-0101
+Take Rte 80 west to Delaware Water Gap Toll Plaza
+4 miles to exit 306 (Dreher Avenue). 
+Left on Dreher Avenue
+Bear left on Glen Brook Road
+2 tenths of mile to GLEN BROOK Golf.
+18
+6536
+72
+011.gif
+15
+656
+4
+60
+375
+59
+50

@@ -1,0 +1,14 @@
+! ** JCreator Workspace File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.00"
+LABEL := "CourseLocatorApp"
+
+! Start Project Structure
+#[BeginProject]SOURCE := "\\CourseLocatorApp.jcp" #[EndProject]
+
+! Start Last Document Structure
+#[BeginFile]SOURCE := "..\\..\\..\\..\\..\\..\\..\\j2sdk1.4.2\\docs\\api\\java\\beans\\XMLDecoder.html@" #[EndFile]
+
+! Start Breakpoint Structure
+

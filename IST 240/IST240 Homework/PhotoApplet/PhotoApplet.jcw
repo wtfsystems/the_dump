@@ -1,0 +1,15 @@
+! ** JCreator Workspace File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.00"
+LABEL := "PhotoApplet"
+
+! Start Project Structure
+#[BeginProject]SOURCE := "\\PhotoApplet.jcp" #[EndProject]
+
+! Start Last Document Structure
+#[BeginFile]SOURCE := "..\\..\\..\\..\\j2sdk1.4.1_02\\docs\\api\\java\\applet\\Applet.html@" #[EndFile]
+#[BeginFile]SOURCE := "\\PhotoApplet.java" #[EndFile]
+
+! Start Breakpoint Structure
+

@@ -1,0 +1,23 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "BirthdayApplet"
+JDKPROFILE := ""
+ACTIVE := "1"
+OUTPUTPATH := "\\classes"
+COMPILER := ""
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "" RUNAPPLET := "" PARAM := "" RUN := "\\classes\\BirthdayApplet.htm" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\Calendar.java" #[EndFile]
+#[BeginFile]SOURCE := "\\BirthdayApplet.java" #[EndFile]
+#[BeginFile]SOURCE := "\\classes\\BirthdayApplet.htm" #[EndFile]
+#[EndFolder]

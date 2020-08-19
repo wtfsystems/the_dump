@@ -1,0 +1,49 @@
+<!--
+	Filename:  temperature.html
+	By:  Matthew Evans
+	Converts temperatures
+//-->
+
+<html>
+	<head>
+	<title>Matthew Evans - temperature.html</title>
+
+	<script language="JavaScript">
+	<!--
+
+	// Function to convert to celsius
+	function convert_to_celsius()
+	{
+		var temp = parseInt(dothack.temperatureIn.value);
+		dothack.temperatureOut.value = 5 / 9 * (temp - 32);
+		return;
+	}
+		
+	// Function to convert to fahrenheit
+	function convert_to_fahrenheit()
+	{
+		var temp = parseInt(dothack.temperatureIn.value);
+		dothack.temperatureOut.value = 9 / 5 * temp + 32;
+		return;
+	}
+
+	//-->
+	</script>
+
+	</head>
+
+	<body>
+
+	<form name="dothack">
+	Enter a temperature:
+	<input name="temperatureIn" type="text" size="10">
+	<br><br>
+	<input name="convertCelBtn" type="button" value="Convert to celsius" onclick="convert_to_celsius()">
+	<input name="convertFarBtn" type="button" value="Convert to fahrenheit" onclick="convert_to_fahrenheit()">
+	<br><br>
+	Converted temperature:
+	<input name="temperatureOut" type="text" size="10">
+	</form>
+
+	</body>
+</html>

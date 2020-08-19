@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<!ELEMENT courseLocator (course*)>
+
+<!ELEMENT course (name?, address?, phonenum?, directions?, holes?, yards?, par?>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phonenum (#PCDATA)>
+<!ELEMENT directions (#PCDATA)>
+<!ELEMENT holes (#PCDATA)>
+<!ELEMENT yards (#PCDATA)>
+<!ELEMENT par (#PCDATA)>
+

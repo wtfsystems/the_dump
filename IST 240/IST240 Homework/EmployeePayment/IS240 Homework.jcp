@@ -1,0 +1,22 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "IS240_Homework"
+JDKPROFILE := "j2sdk1.4.1_02"
+ACTIVE := "1"
+OUTPUTPATH := "..\\\\IS240 Homework"
+COMPILER := ""
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "<Default>" RUNAPPLET := "<Default>" PARAM := "" RUN := "EmployeePaymentTest" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\EmployeePayment.java" #[EndFile]
+#[BeginFile]SOURCE := "\\EmployeePaymentTest.java" #[EndFile]
+#[EndFolder]

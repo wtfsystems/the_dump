@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<courseLocator>
+
+	<course>
+		<name>Course1</name>
+		<address>Address1</address>
+		<phonenum>PhoneNum1</phonenum>
+		<directions>Directions1</directions>
+		<holes>18</holes>
+		<yards>200</yards>
+		<par>30</par>
+	</course>
+	
+	<course>
+		<name>Course2</name>
+		<address>Address2</address>
+		<phonenum>PhoneNum2</phonenum>
+		<directions>Directions2</directions>
+		<holes>9</holes>
+		<yards>100</yards>
+		<par>15</par>
+	</course>
+	
+	<course>
+		<name>Course3</name>
+		<address>Address3</address>
+		<phonenum>PhoneNum3</phonenum>
+		<directions>Directions3</directions>
+		<holes>18</holes>
+		<yards>250</yards>
+		<par>30</par>
+	</course>
+
+</courseLocator>
+
