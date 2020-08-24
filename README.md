@@ -1,4 +1,4 @@
 ## *hic sunt dracones*
 ### ᗜಠ o ಠ)¤=[]:::::>
 
-Old stuff, mostly a dump of my ancient coursework.  Kept for archival purposes.
+Old stuff, examples, mostly a dump of my ancient coursework.  Kept for archival purposes.

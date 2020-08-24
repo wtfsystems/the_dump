@@ -1,0 +1,6 @@
+# Remove vs code stuffs
+.vscode/
+al_diamond_square.code-workspace
+
+# Remove build dir
+build/
